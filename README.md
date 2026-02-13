@@ -4,9 +4,6 @@
 ![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=nextdotjs)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-<img width="1900" height="926" alt="image" src="https://github.com/user-attachments/assets/462a2254-386d-4581-8af2-bb255a33d587" />
-
-### Welcome to my portfolio project! This project showcases my skills and experience in web development using modern technologies like Next.js, Tailwind CSS, Framer Motion, and more.
 
 ## Features
 
@@ -20,27 +17,8 @@ Follow these instructions to set up the project locally.
 
 ### Prerequisites
 
-- Node.js (v14 or later)
+- Node.js
 - npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/portfolio.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd portfolio
-   ```
-3. Install the dependencies:
-   ```sh
-   npm install
-   ```
-   or
-   ```sh
-   yarn install
-   ```
 
 ### Running the Project
 
