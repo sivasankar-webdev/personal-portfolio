@@ -126,7 +126,7 @@ export const projectsData = [
       'Tailwind',
     ],
     imageUrl: portfolioImg,
-    link: 'https://github.com/bbyc4kes/portfolio',
+    link: 'https://sivasankar-dev-portfolio.vercel.app/',
   },
 
   // {
