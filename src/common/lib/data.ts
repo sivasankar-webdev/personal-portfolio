@@ -7,6 +7,7 @@ import projectmanagementImg from '@/../public/images/project-management.png';
 import reactfoodImg from '@/../public/images/react-food.png';
 import surgeImg from '@/../public/images/surge.png';
 import portfolioImg from '@/../public/images/portfolio.png';
+import ThemesImg from '@/../public/images/themeimg.png';
 import auditMasterImg from '@/../public/images/audit-master.png';
 import accountingImg from '@/../public/images/accounting.jpg';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
@@ -56,21 +57,6 @@ export const experiencesData = [
     icon: React.createElement(BriefcaseBusinessIcon),
     date: 'July 2023 - Dec 2025',
   },
-  // {
-  //   title: 'WhirrCrew s.r.o.',
-  //   location: 'Prague, Czechia',
-  //   description:
-  //     'Front-end Developer. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration.',
-  //   icon: React.createElement(BriefcaseBusinessIcon),
-  //   date: 'Jun 2024 - Present',
-  // },
-  // {
-  //   title: 'NAU',
-  //   location: 'Kyiv, Ukraine',
-  //   description: `Bachelor's degree in Cybersecurity. The faculty of Cyber Security and Software Engineering.`,
-  //   icon: React.createElement(BookIcon),
-  //   date: 'Sep 2022 - Jun 2024',
-  // },
 ] as const;
 
 export const images = {
@@ -82,37 +68,6 @@ export const images = {
 };
 
 export const projectsData = [
-  // {
-  //   title: 'Audit Master',
-  //   description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, Due Diligence & more.`,
-  //   tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'SCRUM Methodology'],
-  //   imageUrl: auditMasterImg,
-  //   link: 'https://auditmaster.ai/',
-  // },
-  // {
-  //   title: 'Demo Automation of accounting documents processing',
-  //   description:
-  //     'Upload any receipt or invoice (even a crumpled one from your pocket) and watch our AI accurately extract its data.',
-  //   tags: ['TypeScript', 'React', 'Docker', 'Next.js', 'GraphQL', 'Tailwind'],
-  //   imageUrl: accountingImg,
-  //   link: 'https://demo.grantonai.cz/',
-  // },
-  // {
-  //   title: 'FileDrive',
-  //   description:
-  //     'A platform for decentralized file storage with robust user management.',
-  //   tags: [
-  //     'React',
-  //     'TypeScript',
-  //     'Next.js',
-  //     'Convex',
-  //     'Clerk',
-  //     'Shadcn',
-  //     'Tailwind',
-  //   ],
-  //   imageUrl: filedriveImg,
-  //   link: 'https://github.com/bbyc4kes/file-drive',
-  // },
   {
     title: 'Personal Portfolio',
     description: `Built a modern, responsive portfolio website using Next.js to showcase my projects and skills. Focused on performance optimization, smooth animations to deliver an user experience.`,
@@ -129,23 +84,18 @@ export const projectsData = [
     link: 'https://sivasankar-dev-portfolio.vercel.app/',
   },
 
-  // {
-  //   title: 'Surge',
-  //   description:
-  //     'Service that allows users to build and manage their own websites with integrated payment processing.',
-  //   tags: [
-  //     'React',
-  //     'TypeScript',
-  //     'Next.js',
-  //     'MySQL',
-  //     'Clerk',
-  //     'Stripe Connect',
-  //     'Shadcn',
-  //     'Tailwind',
-  //   ],
-  //   imageUrl: surgeImg,
-  //   link: 'https://github.com/bbyc4kes/surge',
-  // },
+  {
+    title: 'React Multi theme E-com App',
+    description:
+      'Built a multi-theme e-commerce application with dynamic theme switching, React Router based navigation, and persistent UI state using React and Vite.',
+    tags: [
+      'React',
+      'Tailwind',
+      'React Router'
+    ],
+    imageUrl: ThemesImg,
+    link: 'https://github.com/sivasankar-webdev/react-multi-theme-ecommerce',
+  },
 ] as const;
 
 export const skillsData = [
